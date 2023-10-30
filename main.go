@@ -15,4 +15,8 @@ func main() {
 	// 引数を埋め込む
 	fmt.Printf("10進数=%d 2進数=%b 8進数=%o 16進数=%x\n", 17, 17, 17, 17)
 	// 10進数=17 2進数=10001 8進数=21 16進数=11
+
+	// print println
+	print("Hello, World!") // "Hello, World!"を出力
+	println("Hello, World!")// 末尾に改行を付加して出力
 }
